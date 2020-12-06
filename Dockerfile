@@ -26,7 +26,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
 ENV HOME /home/$USERNAME
 
 # Installing minimal tools
-RUN apt-get -y install git vim net-tools wget unzip xz-utils curl lib32stdc++6
+RUN apt-get -y install git vim net-tools wget unzip xz-utils curl 
+# lib32stdc++6
 
  # Clean up
 RUN apt-get autoremove -y \
