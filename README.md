@@ -2,6 +2,4 @@
 
 This is a base Ubuntu 18.04 image already configured with a devuser.
 
-You could run this image locally with:
-
-`docker run -it antoniopicone/ubuntu_develop /bin/bash`
+Build the image with `docker build . -t antoniopicone/ubuntu_develop` and run the image locally with `docker run -it antoniopicone/ubuntu_develop /bin/bash`
